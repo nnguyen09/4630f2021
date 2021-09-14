@@ -1,0 +1,23 @@
+Homework Assignment 1: Reflections, ideas, and planning
+
+1. idea for apps:
+- social networking app for people who want to find partners for their start up.
+- stopwatch that can stop by pressing volume button.
+- carpool app for student
+
+2.
+suggestion for compensation:
+- setting up a patreon with a promise of maintaining and making the app better in the
+future
+- most of the features would be free of charge but when app move up more advance,
+users can pay a little bit of a fee for premium features. However it won’t be really bias
+that users feel like force into getting premium
+
+3.
+- Air bnb: the app is easy to navigate. After searching where to stay, you can see the price on
+every result. They also have filter for deep searching.
+- Facebook: it is very clean. Users can just open it up and scroll down for new feed. every group
+age can use it. I haven’t heard anyone complaining that it is hard to use
+- YouTube: YouTube layout is simple enough that a five year old baby can use it.
+
+4. yes I have some idea what to build but still need a little more time to decide
