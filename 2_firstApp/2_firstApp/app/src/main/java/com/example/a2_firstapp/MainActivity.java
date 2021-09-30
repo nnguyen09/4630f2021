@@ -7,19 +7,19 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //clickButton();
     }
-
-    public void clickButton(View view){
-        TextView name = findViewById(R.id.studentName);
+    public void onClick(View view){
         ImageView img = findViewById(R.id.backGroundImage);
-        name.setText(null);
+        TextView name = findViewById(R.id.studentName);
+        name.setText("Hello World");
         img.setImageResource(R.drawable.profile);
+
     }
-}  
+}
