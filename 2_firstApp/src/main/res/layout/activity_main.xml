@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/backGroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/background_image"
+        android:scaleType="fitXY"
+        android:src="@drawable/profileblur" />
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/ngan_nguyen"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentName"
+        android:text="@string/click_me"
+        android:textSize="20sp"
+        android:id="@+id/button"
+        android:onClick="clickButton"
+        tools:ignore="UsingOnClickInXml" />
+
+</RelativeLayout>
