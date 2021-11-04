@@ -10,65 +10,78 @@
         android:id="@+id/imgProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="18dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
         android:id="@+id/btnImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="25dp"
         android:text="Pick Image"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="57dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="188dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtWarnEmail"
+        app:layout_constraintEnd_toEndOf="@+id/edtPassRepeat"
+        app:layout_constraintStart_toStartOf="@+id/edtPassRepeat" />
 
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="269dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtWarnPass"
+        app:layout_constraintStart_toStartOf="@+id/edtName" />
 
     <EditText
         android:id="@+id/edtPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="12dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="352dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtWarnPassRepeat"
+        app:layout_constraintEnd_toEndOf="@+id/edtPassRepeat" />
 
     <EditText
         android:id="@+id/edtPassRepeat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="11dp"
         android:ems="10"
         android:hint="Re-enter Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="429dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txtGender"
+        app:layout_constraintStart_toStartOf="@+id/txtGender" />
 
     <RadioGroup
         android:id="@+id/rgGender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="19dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="525dp">
+        app:layout_constraintBottom_toTopOf="@+id/txtCountry"
+        app:layout_constraintStart_toStartOf="@+id/txtCountry">
 
         <RadioButton
             android:id="@+id/rbMale"
@@ -94,63 +107,83 @@
         android:id="@+id/txtCountry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="120dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="592dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
         android:id="@+id/spinnerCountry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="592dp" />
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toEndOf="@+id/txtCountry"
+        app:layout_constraintTop_toBottomOf="@+id/rgGender" />
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="636dp" />
+        app:layout_constraintStart_toStartOf="@+id/spinnerCountry"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCountry" />
 
     <TextView
         android:id="@+id/txtGender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="21dp"
         android:text="Gender"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintBottom_toTopOf="@+id/rgGender"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtWarnName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="4dp"
         android:hint="Name"
         android:text="TextView"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="165dp" />
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toTopOf="@+id/edtName"
+        app:layout_constraintStart_toStartOf="@+id/edtName" />
 
     <TextView
         android:id="@+id/txtWarnEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="6dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="244dp" />
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toTopOf="@+id/edtEmail"
+        app:layout_constraintStart_toStartOf="@+id/edtEmail" />
 
     <TextView
         android:id="@+id/txtWarnPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="2dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="331dp" />
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toTopOf="@+id/edtPassword"
+        app:layout_constraintStart_toStartOf="@+id/edtPassword" />
 
     <TextView
         android:id="@+id/txtWarnPassRepeat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="1dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="409dp" />
+        android:textColor="#F44336"
+        app:layout_constraintBottom_toTopOf="@+id/edtPassRepeat"
+        app:layout_constraintStart_toStartOf="@+id/edtPassRepeat" />
 </androidx.constraintlayout.widget.ConstraintLayout>
