@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "351201641126",
+    "project_id": "loginlocalhangoutapp",
+    "storage_bucket": "loginlocalhangoutapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351201641126:android:025c0a8bc5c96acdff2a67",
+        "android_client_info": {
+          "package_name": "com.example.localhangout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351201641126-dcolg5ue6oja76d02r50bqhfm5kt6krk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUcH6AjFZQxi5bx4pI4ACUepGfJqpWJJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351201641126-dcolg5ue6oja76d02r50bqhfm5kt6krk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

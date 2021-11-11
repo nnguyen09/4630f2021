@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent3);
             }
         });
+
     }
 
     private void intiViews(){

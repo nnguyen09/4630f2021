@@ -32,10 +32,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Investment Portfolio"
-        app:layout_constraintEnd_toEndOf="@+id/btnAboutMe"
-        app:layout_constraintStart_toStartOf="@+id/btnAboutMe"
-        app:layout_constraintTop_toBottomOf="@+id/btnAboutMe"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnWeather"
+        app:layout_constraintStart_toStartOf="@+id/btnWeather"
+        app:layout_constraintTop_toBottomOf="@+id/btnWeather" />
 
     <Button
         android:id="@+id/btnResume"
@@ -81,5 +81,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnWeather"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Weather near me "
+        app:layout_constraintEnd_toEndOf="@+id/btnAboutMe"
+        app:layout_constraintStart_toStartOf="@+id/btnAboutMe"
+        app:layout_constraintTop_toBottomOf="@+id/btnAboutMe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
