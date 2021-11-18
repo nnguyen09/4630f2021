@@ -1,3 +1,879 @@
 <resources>
     <string name="app_name">Local Hangout</string>
+    
+    <string-array name="array_us_states">
+        <item> Select your state </item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+
+    </string-array>
+
+    <string-array name="array_state_city">
+        <item> Select your city </item>
+    </string-array>
+
+    <string-array name="array_alabama_city">
+        <item> Select your city </item>
+        <item>	Birmingham	</item>
+        <item>	Mobile	</item>
+        <item>	Huntsville	</item>
+        <item>	Montgomery	</item>
+        <item>	Tuscaloosa	</item>
+        <item>	Auburn	</item>
+        <item>	Hoover	</item>
+        <item>	Florence	</item>
+        <item>	Anniston	</item>
+        <item>	Dothan	</item>
+        <item>	Daphne	</item>
+        <item>	Decatur	</item>
+        <item>	Gadsden	</item>
+        <item>	Madison	</item>
+        <item>	Enterprise	</item>
+        <item>	Albertville	</item>
+        <item>	Phenix City	</item>
+        <item>	Prattville	</item>
+        <item>	Vestavia Hills	</item>
+        <item>	Alabaster	</item>
+        <item>	Foley	</item>
+        <item>	Opelika	</item>
+        <item>	Athens	</item>
+        <item>	Bessemer	</item>
+        <item>	Homewood	</item>
+        <item>	Northport	</item>
+        <item>	Pelham	</item>
+        <item>	Trussville	</item>
+        <item>	Prichard	</item>
+        <item>	Oxford	</item>
+        <item>	Selma	</item>
+        <item>	Fairhope	</item>
+        <item>	Mountain Brook	</item>
+        <item>	Valley	</item>
+        <item>	Cullman	</item>
+        <item>	Helena	</item>
+        <item>	Tillmans Corner	</item>
+        <item>	Sylacauga	</item>
+        <item>	Troy	</item>
+        <item>	Center Point	</item>
+        <item>	Hueytown	</item>
+        <item>	Millbrook	</item>
+        <item>	Saraland	</item>
+        <item>	Hartselle	</item>
+        <item>	Muscle Shoals	</item>
+        <item>	Calera	</item>
+        <item>	Gardendale	</item>
+        <item>	Jasper	</item>
+        <item>	Talladega	</item>
+        <item>	Chelsea	</item>
+        <item>	Moody	</item>
+        <item>	Jacksonville	</item>
+        <item>	Irondale	</item>
+        <item>	Leeds	</item>
+        <item>	Pell City	</item>
+        <item>	Gulf Shores	</item>
+        <item>	Ozark	</item>
+        <item>	Fairfield	</item>
+        <item>	Saks	</item>
+        <item>	Forestdale	</item>
+        <item>	Pleasant Grove	</item>
+        <item>	Scottsboro	</item>
+        <item>	Russellville	</item>
+        <item>	Boaz	</item>
+        <item>	Clay	</item>
+        <item>	Rainbow City	</item>
+        <item>	Pike Road	</item>
+        <item>	Alexander City	</item>
+        <item>	Fultondale	</item>
+        <item>	Meadowbrook	</item>
+        <item>	Sheffield	</item>
+        <item>	Robertsdale	</item>
+        <item>	Southside	</item>
+        <item>	Eufaula	</item>
+        <item>	Spanish Fort	</item>
+        <item>	Bay Minette	</item>
+        <item>	Guntersville	</item>
+        <item>	Tuscumbia	</item>
+        <item>	Wetumpka	</item>
+        <item>	Tuskegee	</item>
+        <item>	Arab	</item>
+        <item>	Pinson	</item>
+        <item>	Fort Payne	</item>
+        <item>	Brook Highland	</item>
+        <item>	Meridianville	</item>
+        <item>	Moores Mill	</item>
+        <item>	Lincoln	</item>
+        <item>	Brewton	</item>
+        <item>	Hamilton	</item>
+        <item>	Montevallo	</item>
+        <item>	Theodore	</item>
+        <item>	Andalusia	</item>
+        <item>	Atmore	</item>
+        <item>	Lanett	</item>
+        <item>	Tarrant	</item>
+        <item>	Satsuma	</item>
+        <item>	Orange Beach	</item>
+        <item>	Demopolis	</item>
+        <item>	Clanton	</item>
+        <item>	Harvest	</item>
+    </string-array>
+
+    <string-array name="array_alaska_city">
+        <item> Select your city </item>
+        <item>	Adak	</item> <item>	Akhiok	</item><item>	Akiak	</item><item>	Akutan	</item><item>	Alakanuk	</item>
+        <item>	Aleknagik	</item><item>	Allakaket	</item><item>	Ambler	</item><item>	Anaktuvuk Pass	</item><item>	Anchorage	</item>
+        <item>	Anderson	</item><item>	Angoon	</item><item>	Aniak	</item><item>	Anvik	</item><item>	Atka	</item><item>	Atqasuk	</item>
+        <item>	Bethel	</item><item>	Bettles	</item><item>	Brevig Mission	</item><item>	Buckland	</item><item>	Chefornak	</item><item>	Chevak	</item><item>	Chignik	</item>
+        <item>	Chuathbaluk	</item>
+<!--        <item>	Clark's Point	</item>-->
+        <item>	Coffman Cove	</item>
+        <item>	Cold Bay	</item>
+        <item>	Cordova	</item>
+        <item>	Craig	</item>
+        <item>	Deering	</item>
+        <item>	Delta Junction	</item>
+        <item>	Dillingham	</item>
+        <item>	Diomede	</item>
+        <item>	Eagle	</item>
+        <item>	Edna Bay	</item>
+        <item>	Eek	</item>
+        <item>	Egegik	</item>
+        <item>	Ekwok	</item>
+        <item>	Elim	</item>
+        <item>	Emmonak	</item>
+        <item>	Fairbanks	</item>
+        <item>	False Pass	</item>
+        <item>	Fort Yukon	</item>
+        <item>	Galena	</item>
+        <item>	Gambell	</item>
+        <item>	Golovin	</item>
+        <item>	Goodnews Bay	</item>
+        <item>	Grayling	</item>
+        <item>	Gustavus	</item>
+        <item>	Holy Cross	</item>
+        <item>	Homer	</item>
+        <item>	Hoonah	</item>
+        <item>	Hooper Bay	</item>
+        <item>	Houston	</item>
+        <item>	Hughes	</item>
+        <item>	Huslia	</item>
+        <item>	Hydaburg	</item>
+        <item>	Juneau	</item>
+        <item>	Kachemak	</item>
+        <item>	Kake	</item>
+        <item>	Kaktovik	</item>
+        <item>	Kaltag	</item>
+        <item>	Kasaan	</item>
+        <item>	Kenai	</item>
+        <item>	Ketchikan	</item>
+        <item>	Kiana	</item>
+        <item>	King Cove	</item>
+        <item>	Kivalina	</item>
+        <item>	Klawock	</item>
+        <item>	Kobuk	</item>
+        <item>	Kodiak	</item>
+        <item>	Kotlik	</item>
+        <item>	Kotzebue	</item>
+        <item>	Koyuk	</item>
+        <item>	Koyukuk	</item>
+        <item>	Kupreanof	</item>
+        <item>	Kwethluk	</item>
+        <item>	Larsen Bay	</item>
+        <item>	Lower Kalskag	</item>
+        <item>	Manokotak	</item>
+        <item>	Marshall	</item>
+        <item>	McGrath	</item>
+        <item>	Mekoryuk	</item>
+        <item>	Mountain Village	</item>
+        <item>	Napakiak	</item>
+        <item>	Napaskiak	</item>
+        <item>	Nenana	</item>
+        <item>	New Stuyahok	</item>
+        <item>	Newhalen	</item>
+        <item>	Nightmute	</item>
+        <item>	Nikolai	</item>
+        <item>	Nome	</item>
+        <item>	Nondalton	</item>
+        <item>	Noorvik	</item>
+        <item>	North Pole	</item>
+        <item>	Nuiqsut	</item>
+        <item>	Nulato	</item>
+        <item>	Nunam Iqua	</item>
+        <item>	Nunapitchuk	</item>
+        <item>	Old Harbor	</item>
+        <item>	Ouzinkie	</item>
+        <item>	Palmer	</item>
+        <item>	Pelican	</item>
+        <item>	Pilot Point	</item>
+        <item>	Pilot Station	</item>
+        <item>	Platinum	</item>
+        <item>	Point Hope	</item>
+        <item>	Port Alexander	</item>
+        <item>	Port Heiden	</item>
+        <item>	Port Lions	</item>
+        <item>	Quinhagak	</item>
+        <item>	Ruby	</item>
+        <item>	Russian Mission	</item>
+        <item>	Saint Paul	</item>
+        <item>	Sand Point	</item>
+        <item>	Savoonga	</item>
+        <item>	Saxman	</item>
+        <item>	Scammon Bay	</item>
+        <item>	Selawik	</item>
+        <item>	Seldovia	</item>
+        <item>	Seward	</item>
+        <item>	Shageluk	</item>
+        <item>	Shaktoolik	</item>
+        <item>	Shishmaref	</item>
+        <item>	Shungnak	</item>
+        <item>	Sitka	</item>
+        <item>	Soldotna	</item>
+<!--        <item>	St. George	</item>-->
+<!--        <item>	St. Mary's	</item>-->
+<!--        <item>	St. Michael	</item>-->
+        <item>	Stebbins	</item>
+        <item>	Tanana	</item>
+        <item>	Teller	</item>
+        <item>	Tenakee Springs	</item>
+        <item>	Thorne Bay	</item>
+        <item>	Togiak	</item>
+        <item>	Toksook Bay	</item>
+        <item>	Unalakleet	</item>
+        <item>	Unalaska	</item>
+        <item>	Upper Kalskag	</item>
+        <item>	Valdez	</item>
+        <item>	Wainwright	</item>
+        <item>	Wales	</item>
+        <item>	Wasilla	</item>
+        <item>	Whale Pass	</item>
+        <item>	White Mountain	</item>
+        <item>	Whittier	</item>
+        <item>	Wrangell	</item>
+    </string-array>
+
+    <string-array name="array_arizona_city">
+        <item> Select your city </item>
+        <item>	Phoenix	</item>
+        <item>	Tucson	</item>
+        <item>	Mesa	</item>
+        <item>	Chandler	</item>
+        <item>	Scottsdale	</item>
+        <item>	Gilbert	</item>
+        <item>	Glendale	</item>
+        <item>	Tempe	</item>
+        <item>	Peoria	</item>
+        <item>	Surprise	</item>
+        <item>	Yuma	</item>
+        <item>	San Tan Valley	</item>
+        <item>	Goodyear	</item>
+        <item>	Avondale	</item>
+        <item>	Buckeye	</item>
+        <item>	Flagstaff	</item>
+        <item>	Casas Adobes	</item>
+        <item>	Casa Grande	</item>
+        <item>	Queen Creek	</item>
+        <item>	Lake Havasu City	</item>
+    </string-array>
+
+    <string-array name="array_arkansas_city">
+        <item> Select your city </item>
+        <item>	Little Rock	</item>
+        <item>	Fayetteville	</item>
+        <item>	Fort Smith	</item>
+        <item>	Springdale	</item>
+        <item>	Jonesboro	</item>
+        <item>	Rogers	</item>
+        <item>	North Little Rock	</item>
+        <item>	Conway	</item>
+        <item>	Bentonville	</item>
+        <item>	Pine Bluff	</item>
+        <item>	Hot Springs	</item>
+        <item>	Benton	</item>
+        <item>	Sherwood	</item>
+        <item>	Bella Vista	</item>
+        <item>	Paragould	</item>
+        <item>	Jacksonville	</item>
+        <item>	Texarkana	</item>
+        <item>	Russellville	</item>
+        <item>	Cabot	</item>
+        <item>	West Memphis	</item>
+    </string-array>
+
+    <string-array name="array_california_city">
+        <item> Select your city </item>
+        <item>	Los Angeles	</item>
+        <item>	San Diego	</item>
+        <item>	San Jose	</item>
+        <item>	San Francisco	</item>
+        <item>	Fresno	</item>
+        <item>	Sacramento	</item>
+        <item>	Long Beach	</item>
+        <item>	Oakland	</item>
+        <item>	Bakersfield	</item>
+        <item>	Anaheim	</item>
+        <item>	Stockton	</item>
+        <item>	Riverside	</item>
+        <item>	Santa Ana	</item>
+        <item>	Irvine	</item>
+        <item>	Chula Vista	</item>
+        <item>	Fremont	</item>
+        <item>	Santa Clarita	</item>
+        <item>	San Bernardino	</item>
+        <item>	Modesto	</item>
+        <item>	Moreno Valley	</item>
+    </string-array>
+
+    <string-array name="array_colorado_city">
+        <item> Select your city </item>
+        <item>	Denver	</item>
+        <item>	Colorado Springs	</item>
+        <item>	Aurora	</item>
+        <item>	Fort Collins	</item>
+        <item>	Lakewood	</item>
+        <item>	Thornton	</item>
+        <item>	Arvada	</item>
+        <item>	Westminster	</item>
+        <item>	Pueblo	</item>
+        <item>	Greeley	</item>
+        <item>	Centennial	</item>
+        <item>	Boulder	</item>
+        <item>	Highlands Ranch	</item>
+        <item>	Longmont	</item>
+        <item>	Loveland	</item>
+        <item>	Broomfield	</item>
+        <item>	Castle Rock	</item>
+        <item>	Grand Junction	</item>
+        <item>	Commerce City	</item>
+        <item>	Parker	</item>
+    </string-array>
+    
+    <string-array name="array_list_of_interest">
+        <item> What\'s your interest\?</item>
+        <item>	3D printing	</item>
+        <item>	Acting	</item>
+        <item>	Aeromodeling	</item>
+        <item>	Air sports	</item>
+        <item>	Airbrushing	</item>
+        <item>	Aircraft Spotting	</item>
+        <item>	Airsoft	</item>
+        <item>	Airsofting	</item>
+        <item>	Amateur astronomy	</item>
+        <item>	Amateur geology	</item>
+        <item>	Amateur Radio	</item>
+        <item>	American football	</item>
+        <item>	Animal fancy	</item>
+        <item>	Animals/pets/dogs	</item>
+        <item>	Antiquing	</item>
+        <item>	Antiquities	</item>
+        <item>	Aqua-lung	</item>
+        <item>	Aquarium 	</item>
+        <item>	Archery	</item>
+        <item>	Art collecting	</item>
+        <item>	Arts	</item>
+        <item>	Association football	</item>
+        <item>	Astrology	</item>
+        <item>	Astronomy	</item>
+        <item>	Audiophilia	</item>
+        <item>	Australian rules football	</item>
+        <item>	Auto audiophilia	</item>
+        <item>	Auto racing	</item>
+        <item>	Backgammon	</item>
+        <item>	Backpacking	</item>
+        <item>	Badminton	</item>
+        <item>	Base Jumping	</item>
+        <item>	Baseball	</item>
+        <item>	Basketball	</item>
+        <item>	Baton Twirling	</item>
+        <item>	Beach Volleyball	</item>
+        <item>	Beach/Sun tanning	</item>
+        <item>	Beachcombing	</item>
+        <item>	Beadwork	</item>
+        <item>	Beatboxing	</item>
+        <item>	Becoming A Child Advocate	</item>
+        <item>	Beekeeping	</item>
+        <item>	Bell Ringing	</item>
+        <item>	Belly Dancing	</item>
+        <item>	Bicycle Polo	</item>
+        <item>	Bicycling	</item>
+        <item>	Billiards	</item>
+        <item>	Bird watching	</item>
+        <item>	Birding	</item>
+        <item>	Birdwatching	</item>
+        <item>	Blacksmithing	</item>
+        <item>	Blogging	</item>
+        <item>	BMX	</item>
+        <item>	Board games	</item>
+        <item>	Board sports	</item>
+        <item>	BoardGames	</item>
+        <item>	Boating	</item>
+        <item>	Body Building	</item>
+        <item>	Bodybuilding	</item>
+        <item>	Bonsai Tree	</item>
+        <item>	Book collecting	</item>
+        <item>	Bookbinding	</item>
+        <item>	Boomerangs	</item>
+        <item>	Bowling	</item>
+        <item>	Boxing	</item>
+        <item>	Brazilian jiu-jitsu	</item>
+        <item>	Breakdancing	</item>
+        <item>	Brewing Beer	</item>
+        <item>	Bridge	</item>
+        <item>	Bridge Building	</item>
+        <item>	Bringing Food To The Disabled	</item>
+        <item>	Building A House For Habitat For Humanity	</item>
+        <item>	Building Dollhouses	</item>
+        <item>	Bus spotting	</item>
+        <item>	Butterfly Watching	</item>
+        <item>	Button Collecting	</item>
+        <item>	Cake Decorating	</item>
+        <item>	Calligraphy	</item>
+        <item>	Camping	</item>
+        <item>	Candle making	</item>
+        <item>	Canoeing	</item>
+        <item>	Car Racing	</item>
+        <item>	Card collecting	</item>
+        <item>	Cartooning	</item>
+        <item>	Casino Gambling	</item>
+        <item>	Cave Diving	</item>
+        <item>	Ceramics	</item>
+        <item>	Cheerleading	</item>
+        <item>	Chess	</item>
+        <item>	Church/church activities	</item>
+        <item>	Cigar Smoking	</item>
+        <item>	Climbing	</item>
+        <item>	Cloud Watching	</item>
+        <item>	Coin Collecting	</item>
+        <item>	Collecting	</item>
+        <item>	Collecting Antiques	</item>
+        <item>	Collecting Artwork	</item>
+        <item>	Collecting Hats	</item>
+        <item>	Collecting Music Albums	</item>
+        <item>	Collecting RPM Records	</item>
+        <item>	Collecting Sports Cards 	</item>
+        <item>	Collecting Swords	</item>
+        <item>	Color guard	</item>
+        <item>	Coloring	</item>
+        <item>	Comic book collecting	</item>
+        <item>	Compose Music	</item>
+        <item>	Computer activities	</item>
+        <item>	Computer programming	</item>
+        <item>	Conworlding	</item>
+        <item>	Cooking	</item>
+        <item>	Cosplay	</item>
+        <item>	Cosplaying	</item>
+        <item>	Couponing	</item>
+        <item>	Crafts	</item>
+        <item>	Crafts (unspecified)	</item>
+        <item>	Creative writing	</item>
+        <item>	Cricket	</item>
+        <item>	Crochet	</item>
+        <item>	Crocheting	</item>
+        <item>	Cross-Stitch	</item>
+        <item>	Crossword Puzzles	</item>
+        <item>	Cryptography	</item>
+        <item>	Curling	</item>
+        <item>	Cycling	</item>
+        <item>	Dance	</item>
+        <item>	Dancing	</item>
+        <item>	Darts	</item>
+        <item>	Debate	</item>
+        <item>	Deltiology 	</item>
+        <item>	Diecast Collectibles	</item>
+        <item>	Digital arts	</item>
+        <item>	Digital Photography	</item>
+        <item>	Disc golf	</item>
+        <item>	Do it yourself	</item>
+        <item>	Dodgeball	</item>
+        <item>	Dog sport	</item>
+        <item>	Dolls	</item>
+        <item>	Dominoes	</item>
+        <item>	Dowsing	</item>
+        <item>	Drama	</item>
+        <item>	Drawing	</item>
+        <item>	Driving	</item>
+        <item>	Dumpster Diving	</item>
+        <item>	Eating out	</item>
+        <item>	Educational Courses	</item>
+        <item>	Electronics	</item>
+        <item>	Element collecting	</item>
+        <item>	Embroidery	</item>
+        <item>	Entertaining	</item>
+        <item>	Equestrianism	</item>
+        <item>	Exercise 	</item>
+        <item>	Exhibition drill	</item>
+        <item>	Falconry	</item>
+        <item>	Fast cars	</item>
+        <item>	Felting	</item>
+        <item>	Fencing	</item>
+        <item>	Field hockey	</item>
+        <item>	Figure skating	</item>
+        <item>	Fire Poi	</item>
+        <item>	Fishing	</item>
+        <item>	Fishkeeping	</item>
+        <item>	Flag Football	</item>
+        <item>	Floorball	</item>
+        <item>	Floral Arrangements	</item>
+        <item>	Flower arranging	</item>
+        <item>	Flower collecting and pressing	</item>
+        <item>	Fly Tying	</item>
+        <item>	Flying	</item>
+        <item>	Footbag	</item>
+        <item>	Football	</item>
+        <item>	Football	</item>
+        <item>	Foraging	</item>
+        <item>	Foreign language learning	</item>
+        <item>	Fossil hunting	</item>
+        <item>	Four Wheeling	</item>
+        <item>	Freshwater Aquariums	</item>
+        <item>	Frisbee Golf 	</item>
+        <item>	Gambling	</item>
+        <item>	Games	</item>
+        <item>	Gaming </item>
+        <item>	Garage Saleing	</item>
+        <item>	Gardening	</item>
+        <item>	Genealogy	</item>
+        <item>	Geocaching	</item>
+        <item>	Ghost hunting	</item>
+        <item>	Glassblowing	</item>
+        <item>	Glowsticking	</item>
+        <item>	Gnoming	</item>
+        <item>	Go	</item>
+        <item>	Go Kart Racing	</item>
+        <item>	Going to movies	</item>
+        <item>	Golf	</item>
+        <item>	Gongoozling	</item>
+        <item>	Graffiti	</item>
+        <item>	Grip Strength	</item>
+        <item>	Guitar	</item>
+        <item>	Gun Collecting	</item>
+        <item>	Gunsmithing	</item>
+        <item>	Gymnastics	</item>
+        <item>	Gyotaku	</item>
+        <item>	Handball	</item>
+        <item>	Handwriting Analysis	</item>
+        <item>	Hang gliding	</item>
+        <item>	Herping	</item>
+        <item>	Hiking	</item>
+        <item>	Home Brewing	</item>
+        <item>	Home Repair	</item>
+        <item>	Home Theater	</item>
+        <item>	Homebrewing	</item>
+        <item>	Hooping	</item>
+        <item>	Horse riding	</item>
+        <item>	Hot air ballooning	</item>
+        <item>	Hula Hooping	</item>
+        <item>	Hunting	</item>
+        <item>	Ice hockey	</item>
+        <item>	Ice skating	</item>
+        <item>	Iceskating	</item>
+        <item>	Illusion	</item>
+        <item>	Impersonations	</item>
+        <item>	Inline skating	</item>
+        <item>	Insect collecting	</item>
+        <item>	Internet	</item>
+        <item>	Inventing	</item>
+        <item>	Jet Engines	</item>
+        <item>	Jewelry Making	</item>
+        <item>	Jigsaw Puzzles	</item>
+        <item>	Jogging	</item>
+        <item>	Judo	</item>
+        <item>	Juggling	</item>
+        <item>	Jukskei	</item>
+        <item>	Jump Roping	</item>
+        <item>	Kabaddi	</item>
+        <item>	Kart racing	</item>
+        <item>	Kayaking	</item>
+        <item>	Keep A Journal	</item>
+        <item>	Kitchen Chemistry	</item>
+        <item>	Kite Boarding	</item>
+        <item>	Kitesurfing	</item>
+        <item>	Knapping	</item>
+        <item>	Knife making	</item>
+        <item>	Knife throwing	</item>
+        <item>	Knitting	</item>
+        <item>	Knotting	</item>
+        <item>	Lacemaking	</item>
+        <item>	Lacrosse	</item>
+        <item>	Lapidary	</item>
+        <item>	LARPing	</item>
+        <item>	Laser tag	</item>
+        <item>	Lasers	</item>
+        <item>	Lawn Darts	</item>
+        <item>	Learning A Foreign Language	</item>
+        <item>	Learning An Instrument	</item>
+        <item>	Learning To Pilot A Plane	</item>
+        <item>	Leather crafting	</item>
+        <item>	Leathercrafting	</item>
+        <item>	Lego building	</item>
+        <item>	Legos	</item>
+        <item>	Letterboxing	</item>
+        <item>	Listening to music	</item>
+        <item>	Locksport	</item>
+        <item>	Machining	</item>
+        <item>	Macrame	</item>
+        <item>	Magic	</item>
+        <item>	Mahjong	</item>
+        <item>	Mahjong	</item>
+        <item>	Making Model Cars	</item>
+        <item>	Marbles	</item>
+        <item>	Marksmanship	</item>
+        <item>	Martial arts	</item>
+        <item>	Matchstick Modeling	</item>
+        <item>	Meditation	</item>
+        <item>	Metal detecting	</item>
+        <item>	Meteorology	</item>
+        <item>	Microscopy	</item>
+        <item>	Mineral collecting	</item>
+        <item>	Model aircraft	</item>
+        <item>	Model building	</item>
+        <item>	Model Railroading	</item>
+        <item>	Model Rockets	</item>
+        <item>	Modeling Ships	</item>
+        <item>	Models	</item>
+        <item>	Motor sports	</item>
+        <item>	Motorcycles	</item>
+        <item>	Mountain Biking	</item>
+        <item>	Mountain Climbing	</item>
+        <item>	Mountaineering	</item>
+        <item>	Movie and movie memorabilia collecting	</item>
+        <item>	Mushroom hunting	</item>
+        <item>	Musical Instruments	</item>
+        <item>	Nail Art	</item>
+        <item>	Needlepoint	</item>
+        <item>	Netball	</item>
+        <item>	Nordic skating	</item>
+        <item>	Orienteering	</item>
+        <item>	Origami	</item>
+        <item>	Owning An Antique Car	</item>
+        <item>	Paintball	</item>
+        <item>	Painting	</item>
+        <item>	Papermache	</item>
+        <item>	Papermaking	</item>
+        <item>	Parachuting	</item>
+        <item>	Paragliding or Power Paragliding	</item>
+        <item>	Parkour	</item>
+        <item>	People Watching	</item>
+        <item>	Photography	</item>
+        <item>	Piano	</item>
+        <item>	Pigeon racing	</item>
+        <item>	Pinochle	</item>
+        <item>	Pipe Smoking	</item>
+        <item>	Planking	</item>
+        <item>	Playing music	</item>
+        <item>	Playing musical instruments	</item>
+        <item>	Playing team sports	</item>
+        <item>	Poker	</item>
+        <item>	Pole Dancing	</item>
+        <item>	Polo	</item>
+        <item>	Pottery	</item>
+        <item>	Powerboking	</item>
+        <item>	Protesting	</item>
+        <item>	Puppetry	</item>
+        <item>	Puzzles	</item>
+        <item>	Pyrotechnics	</item>
+        <item>	Quilting	</item>
+        <item>	R/C Boats	</item>
+        <item>	R/C Cars	</item>
+        <item>	R/C Helicopters	</item>
+        <item>	R/C Planes	</item>
+        <item>	Racing Pigeons	</item>
+        <item>	Racquetball	</item>
+        <item>	Radio-controlled car racing	</item>
+        <item>	Rafting	</item>
+        <item>	Railfans	</item>
+        <item>	Rappelling	</item>
+        <item>	Rapping	</item>
+        <item>	Reading	</item>
+        <item>	Reading To The Elderly	</item>
+        <item>	Record collecting	</item>
+        <item>	Relaxing	</item>
+        <item>	Renaissance Faire	</item>
+        <item>	Renting movies	</item>
+        <item>	Rescuing Abused Or Abandoned Animals	</item>
+        <item>	Robotics	</item>
+        <item>	Rock balancing	</item>
+        <item>	Rock climbing	</item>
+        <item>	Rock Collecting	</item>
+        <item>	Rockets	</item>
+        <item>	Rocking AIDS Babies	</item>
+        <item>	Roleplaying	</item>
+        <item>	Roller derby	</item>
+        <item>	Roller skating	</item>
+        <item>	Rugby	</item>
+        <item>	Rugby league football	</item>
+        <item>	Running	</item>
+        <item>	Sailing	</item>
+        <item>	Saltwater Aquariums	</item>
+        <item>	Sand art	</item>
+        <item>	Sand Castles	</item>
+        <item>	Scrapbooking	</item>
+        <item>	Scuba diving	</item>
+        <item>	Sculling or Rowing	</item>
+        <item>	Sculpting	</item>
+        <item>	Sea glass collecting	</item>
+        <item>	Seashell collecting	</item>
+        <item>	Self Defense	</item>
+        <item>	Sewing	</item>
+        <item>	Shark Fishing	</item>
+        <item>	Shooting	</item>
+        <item>	Shooting sport	</item>
+        <item>	Shopping	</item>
+        <item>	Shortwave listening	</item>
+        <item>	Singing	</item>
+        <item>	Singing In Choir	</item>
+        <item>	Skateboarding	</item>
+        <item>	Skeet Shooting	</item>
+        <item>	Sketching	</item>
+        <item>	Skiing	</item>
+        <item>	Skimboarding	</item>
+        <item>	Sky Diving	</item>
+        <item>	Skydiving	</item>
+        <item>	Slack Lining	</item>
+        <item>	Slacklining	</item>
+        <item>	Sleeping	</item>
+        <item>	Slingshots	</item>
+        <item>	Slot car racing	</item>
+        <item>	Snorkeling	</item>
+        <item>	Snowboarding	</item>
+        <item>	Soap Making	</item>
+        <item>	Soapmaking	</item>
+        <item>	Soccer	</item>
+        <item>	Socializing with friends/neighbors	</item>
+        <item>	Speed Cubing (rubix cube)	</item>
+        <item>	Speed skating	</item>
+        <item>	Spelunkering	</item>
+        <item>	Spending time with family/kids	</item>
+        <item>	Sports	</item>
+        <item>	Squash	</item>
+        <item>	Stamp Collecting	</item>
+        <item>	Stand-up comedy	</item>
+        <item>	Stone collecting	</item>
+        <item>	Stone skipping	</item>
+        <item>	Storm Chasing	</item>
+        <item>	Storytelling	</item>
+        <item>	String Figures	</item>
+        <item>	Sudoku	</item>
+        <item>	Surf Fishing	</item>
+        <item>	Surfing	</item>
+        <item>	Survival	</item>
+        <item>	Swimming	</item>
+        <item>	Table football	</item>
+        <item>	Table tennis	</item>
+        <item>	Taekwondo	</item>
+        <item>	Tai chi	</item>
+        <item>	Tatting	</item>
+        <item>	Taxidermy	</item>
+        <item>	Tea Tasting	</item>
+        <item>	Tennis	</item>
+        <item>	Tesla Coils	</item>
+        <item>	Tetris	</item>
+        <item>	Textiles	</item>
+        <item>	Texting	</item>
+        <item>	Tombstone Rubbing	</item>
+        <item>	Tool Collecting	</item>
+        <item>	Tool Collecting	</item>
+        <item>	Tour skating	</item>
+        <item>	Toy Collecting	</item>
+        <item>	Train Collecting	</item>
+        <item>	Train Spotting	</item>
+        <item>	Trainspotting	</item>
+        <item>	Traveling	</item>
+        <item>	Treasure Hunting	</item>
+        <item>	Trekkie	</item>
+        <item>	Triathlon	</item>
+        <item>	Tutoring Children	</item>
+        <item>	TV watching	</item>
+        <item>	Ultimate Frisbee	</item>
+        <item>	Urban exploration	</item>
+        <item>	Vehicle restoration	</item>
+        <item>	Video game collecting	</item>
+        <item>	Video Games	</item>
+        <item>	Video gaming	</item>
+        <item>	Videophilia	</item>
+        <item>	Vintage cars	</item>
+        <item>	Violin	</item>
+        <item>	Volleyball	</item>
+        <item>	Volunteer	</item>
+        <item>	Walking	</item>
+        <item>	Warhammer	</item>
+        <item>	Watching movies	</item>
+        <item>	Watching sporting events	</item>
+        <item>	Water sports	</item>
+        <item>	Weather Watcher	</item>
+        <item>	Web surfing	</item>
+        <item>	Weightlifting	</item>
+        <item>	Windsurfing	</item>
+        <item>	Wine Making	</item>
+        <item>	Wingsuit Flying	</item>
+        <item>	Wood carving	</item>
+        <item>	Woodworking	</item>
+        <item>	Working In A Food Pantry	</item>
+        <item>	Working on cars	</item>
+        <item>	World Record Breaking	</item>
+        <item>	Worldbuilding	</item>
+        <item>	Wrestling	</item>
+        <item>	Writing	</item>
+        <item>	Writing Music	</item>
+        <item>	Writing Songs	</item>
+        <item>	Yo-yoing	</item>
+        <item>	Yoga	</item>
+        <item>	YoYo	</item>
+        <item>	Ziplining	</item>
+        <item>	Zumba	</item>
+
+
+    </string-array>
+
+
+
+
+    
+
+
 </resources>

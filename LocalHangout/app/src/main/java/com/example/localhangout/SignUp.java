@@ -27,6 +27,7 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+
         setupUIView();
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -47,7 +48,7 @@ public class SignUp extends AppCompatActivity {
                             if(task.isSuccessful()){
                                 Toast.makeText(SignUp.this, "Registration Successful",Toast.LENGTH_SHORT).show();
 
-                                //go back to login if successfull. Testing only, will implement next page later
+                                //go back to login if successful.
                                 startActivity(new Intent(SignUp.this, Login.class));
                             }else{
                                 Toast.makeText(SignUp.this, "Registration Failed",Toast.LENGTH_SHORT).show();
@@ -70,7 +71,7 @@ public class SignUp extends AppCompatActivity {
         userName = findViewById(R.id.etUserName);
         userPassword = findViewById(R.id.etUserPassword);
         userEmail = findViewById(R.id.etUserEmail);
-        regButton = findViewById(R.id.btnSignUp);
+        regButton = findViewById(R.id.btnRegister);
         userLogin = findViewById(R.id.tvUserLogin);
     }
 
@@ -80,7 +81,7 @@ public class SignUp extends AppCompatActivity {
         String password = userPassword.getText().toString();
         String email = userEmail.getText().toString();
 
-        if(name.isEmpty()&&password.isEmpty()&&email.isEmpty()){
+        if(name.isEmpty() || password.isEmpty() || email.isEmpty()){
             Toast.makeText( this,"Please enter all the details", Toast.LENGTH_SHORT).show();
         }else{
             result = true;
