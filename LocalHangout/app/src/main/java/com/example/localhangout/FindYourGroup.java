@@ -2,6 +2,7 @@ package com.example.localhangout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -11,12 +12,15 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class FindYourGroup extends AppCompatActivity {
     private ImageView imgOfGroup;
     private String selectedState, selectedCity;
     private Spinner stateSpinner, citySpinner, interestSpinner;
     private ArrayAdapter<CharSequence> stateAdapter , cityAdapter, interestAdapter;
-    private Button chatButton;
+    private Button chatButton, logoutButton;
+    private FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,7 +91,21 @@ public class FindYourGroup extends AppCompatActivity {
 
         //chatButton
         letChat();
+        logout();
 
+    }
+    private void logout(){
+
+        firebaseAuth = FirebaseAuth.getInstance();
+        logoutButton = findViewById(R.id.btnLogout);
+        logoutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                firebaseAuth.signOut();
+                finish();
+                startActivity(new Intent(FindYourGroup.this, MainActivity.class));
+            }
+        });
     }
 
     private void letChat(){

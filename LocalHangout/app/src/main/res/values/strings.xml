@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Local Hangout</string>
-    
+
     <string-array name="array_us_states">
         <item> Select your state </item>
         <item>Alabama</item>
@@ -166,12 +166,31 @@
 
     <string-array name="array_alaska_city">
         <item> Select your city </item>
-        <item>	Adak	</item> <item>	Akhiok	</item><item>	Akiak	</item><item>	Akutan	</item><item>	Alakanuk	</item>
-        <item>	Aleknagik	</item><item>	Allakaket	</item><item>	Ambler	</item><item>	Anaktuvuk Pass	</item><item>	Anchorage	</item>
-        <item>	Anderson	</item><item>	Angoon	</item><item>	Aniak	</item><item>	Anvik	</item><item>	Atka	</item><item>	Atqasuk	</item>
-        <item>	Bethel	</item><item>	Bettles	</item><item>	Brevig Mission	</item><item>	Buckland	</item><item>	Chefornak	</item><item>	Chevak	</item><item>	Chignik	</item>
+        <item>	Adak	</item>
+        <item>	Akhiok	</item>
+        <item>	Akiak	</item>
+        <item>	Akutan	</item>
+        <item>	Alakanuk	</item>
+        <item>	Aleknagik	</item>
+        <item>	Allakaket	</item>
+        <item>	Ambler	</item>
+        <item>	Anaktuvuk Pass	</item>
+        <item>	Anchorage	</item>
+        <item>	Anderson	</item>
+        <item>	Angoon	</item>
+        <item>	Aniak	</item>
+        <item>	Anvik	</item>
+        <item>	Atka	</item>
+        <item>	Atqasuk	</item>
+        <item>	Bethel	</item>
+        <item>	Bettles	</item>
+        <item>	Brevig Mission	</item>
+        <item>	Buckland	</item>
+        <item>	Chefornak	</item>
+        <item>	Chevak	</item>
+        <item>	Chignik	</item>
         <item>	Chuathbaluk	</item>
-<!--        <item>	Clark's Point	</item>-->
+        <!--        <item>	Clark's Point	</item>-->
         <item>	Coffman Cove	</item>
         <item>	Cold Bay	</item>
         <item>	Cordova	</item>
@@ -274,9 +293,9 @@
         <item>	Shungnak	</item>
         <item>	Sitka	</item>
         <item>	Soldotna	</item>
-<!--        <item>	St. George	</item>-->
-<!--        <item>	St. Mary's	</item>-->
-<!--        <item>	St. Michael	</item>-->
+        <!--        <item>	St. George	</item>-->
+        <!--        <item>	St. Mary's	</item>-->
+        <!--        <item>	St. Michael	</item>-->
         <item>	Stebbins	</item>
         <item>	Tanana	</item>
         <item>	Teller	</item>
@@ -392,7 +411,7 @@
         <item>	Commerce City	</item>
         <item>	Parker	</item>
     </string-array>
-    
+
     <string-array name="array_list_of_interest">
         <item> What\'s your interest\?</item>
         <item>	3D printing	</item>
@@ -869,11 +888,6 @@
 
 
     </string-array>
-
-
-
-
-    
 
 
 </resources>
