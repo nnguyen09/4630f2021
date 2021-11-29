@@ -17,6 +17,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class Login extends AppCompatActivity {
 
@@ -24,8 +26,8 @@ public class Login extends AppCompatActivity {
     private Button eLogin;
     private TextView eAttemptsInfo;
 
-    private String Username = "Admin";
-    private String Password = "12345678";
+    private final String Username = "Admin";
+    private final String Password = "12345678";
 
     boolean isValid = false;
     private int counter = 5;
@@ -62,33 +64,7 @@ public class Login extends AppCompatActivity {
 
         eLogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-//                String inputName = eName.getText().toString();
-//                String inputPassword = ePassword.getText().toString();
-//
-//                if(inputName.isEmpty()||inputPassword.isEmpty()){
-//                    Toast.makeText(Login.this, "Please enter all the detail correctly", Toast.LENGTH_SHORT).show();
-//                }else{
-//                    isValid = validate(inputName, inputPassword);
-//                    if(!isValid){
-//                        counter --;
-//                        Toast.makeText(Login.this, "Incorrect credentials entered ", Toast.LENGTH_SHORT).show();
-//
-//                        eAttemptsInfo.setText("No. of attempts remaining: "+ counter);
-//
-//                        if(counter == 0){
-//                            eLogin.setEnabled(false); // disable login button after certain attempt
-//                        }
-//                    }else {
-//                        Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
-//
-//                        //Create new activity when login successful
-//                        Intent intent = new Intent(Login.this, FindYourGroup.class);
-//                        startActivity(intent);
-//                    }
-//
-//                }
-//                Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
+            public void onClick(View view) { ;
 
                 validate(eName.getText().toString(),ePassword.getText().toString());
             }

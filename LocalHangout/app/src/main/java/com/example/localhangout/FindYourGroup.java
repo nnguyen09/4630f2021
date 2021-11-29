@@ -114,6 +114,7 @@ public class FindYourGroup extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(FindYourGroup.this, "Let's Chat selected. Removing this and add chat room soon", Toast.LENGTH_SHORT).show();
+
             }
         });
     }

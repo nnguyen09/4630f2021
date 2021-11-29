@@ -15,6 +15,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUp extends AppCompatActivity {
 
@@ -22,6 +25,7 @@ public class SignUp extends AppCompatActivity {
     private Button regButton;
     private TextView userLogin;
     private FirebaseAuth firebaseAuth;
+    private DatabaseReference reference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,22 +35,39 @@ public class SignUp extends AppCompatActivity {
         setupUIView();
 
         firebaseAuth = FirebaseAuth.getInstance();
+        reference = FirebaseDatabase.getInstance().getReference().child("Users");
 
         regButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(validate()){
                     //upload data to the database
-                    String user_email = userEmail.getText().toString().trim(); //.trim() to remove the white spaces
-                    String user_password = userPassword.getText().toString().trim();
-
+                    final String user_email = userEmail.getText().toString().trim(); //.trim() to remove the white spaces
+                    final String user_password = userPassword.getText().toString().trim();
+                    final String user_name = userName.getText().toString().trim();
 
                     firebaseAuth.createUserWithEmailAndPassword(user_email,user_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             //tell user if the task is successful
                             if(task.isSuccessful()){
-                                Toast.makeText(SignUp.this, "Registration Successful",Toast.LENGTH_SHORT).show();
+
+
+                                //insert value in database
+                                FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+                                User user = new User();
+                                user.setName(user_name);
+                                user.setEmail(user_email);
+
+                                reference.child(firebaseUser.getUid()).setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if(task.isSuccessful()){
+                                            Toast.makeText(SignUp.this, "Registration Successful",Toast.LENGTH_SHORT).show();
+                                        }
+                                    }
+                                });
+
 
                                 //go back to login if successful.
                                 startActivity(new Intent(SignUp.this, Login.class));
