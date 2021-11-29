@@ -114,6 +114,7 @@ public class FindYourGroup extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(FindYourGroup.this, "Let's Chat selected. Removing this and add chat room soon", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(FindYourGroup.this, GroupChat.class));
 
             }
         });
@@ -132,6 +133,7 @@ public class FindYourGroup extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String interest_selected = adapterView.getItemAtPosition(i).toString();
                 Toast.makeText(FindYourGroup.this, interest_selected + " selected", Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
