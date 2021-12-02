@@ -7,43 +7,43 @@
     tools:context=".GroupChat">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="45dp"
-        android:id="@+id/rvMessage"
-        >
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:background="@color/teal_700"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
         android:paddingTop="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
+
             <EditText
+                android:id="@+id/editTextMessage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/editTextMessage"
                 android:layout_weight="1"
-                android:textColor="#c90dbc"
-                android:hint="Enter message"/>
-            
+                android:hint="Enter message"
+                android:textColor="@color/white" />
+
+
             <ImageButton
+                android:id="@+id/btnSend"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:background="#c7c30c"
-                android:id="@+id/btnSend"
-                android:src="@drawable/ic_baseline_send_24"/>
+                android:background="@color/blue"
+                android:src="@drawable/ic_baseline_send_24" />
         </LinearLayout>
 
     </RelativeLayout>
