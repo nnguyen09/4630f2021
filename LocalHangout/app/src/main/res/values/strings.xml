@@ -163,7 +163,6 @@
         <item>	Clanton	</item>
         <item>	Harvest	</item>
     </string-array>
-
     <string-array name="array_alaska_city">
         <item> Select your city </item>
         <item>	Adak	</item>
@@ -315,7 +314,6 @@
         <item>	Whittier	</item>
         <item>	Wrangell	</item>
     </string-array>
-
     <string-array name="array_arizona_city">
         <item> Select your city </item>
         <item>	Phoenix	</item>
@@ -339,7 +337,6 @@
         <item>	Queen Creek	</item>
         <item>	Lake Havasu City	</item>
     </string-array>
-
     <string-array name="array_arkansas_city">
         <item> Select your city </item>
         <item>	Little Rock	</item>
@@ -363,7 +360,6 @@
         <item>	Cabot	</item>
         <item>	West Memphis	</item>
     </string-array>
-
     <string-array name="array_california_city">
         <item> Select your city </item>
         <item>	Los Angeles	</item>
@@ -387,7 +383,6 @@
         <item>	Modesto	</item>
         <item>	Moreno Valley	</item>
     </string-array>
-
     <string-array name="array_colorado_city">
         <item> Select your city </item>
         <item>	Denver	</item>
@@ -411,6 +406,811 @@
         <item>	Commerce City	</item>
         <item>	Parker	</item>
     </string-array>
+    <string-array name="array_connecticut_city">
+        <item> Select your city </item>
+        <item>	Bridgeport	</item>
+        <item>	Stamford	</item>
+        <item>	New Haven	</item>
+        <item>	Hartford	</item>
+        <item>	Waterbury	</item>
+        <item>	Norwalk	</item>
+        <item>	Danbury	</item>
+        <item>	New Britain	</item>
+        <item>	West Hartford	</item>
+        <item>	Greenwich	</item>
+        <item>	Fairfield	</item>
+        <item>	Hamden	</item>
+        <item>	Meriden	</item>
+        <item>	Bristol	</item>
+        <item>	Manchester	</item>
+    </string-array>
+    <string-array name="array_delaware_city">
+        <item> Select your city </item>
+        <item>	Wilmington	</item>
+        <item>	Dover	</item>
+        <item>	Newark	</item>
+        <item>	Middletown	</item>
+        <item>	Bear	</item>
+        <item>	Glasgow	</item>
+        <item>	Brookside	</item>
+        <item>	Hockessin	</item>
+        <item>	Smyrna	</item>
+        <item>	Pike Creek Valley	</item>
+        <item>	Milford	</item>
+    </string-array>
+    <string-array name="array_florida_city">
+        <item>select your city</item>
+        <item>	Jacksonville	</item>
+        <item>	Miami	</item>
+        <item>	Tampa	</item>
+        <item>	Orlando	</item>
+        <item>	St. Petersburg	</item>
+        <item>	Hialeah	</item>
+        <item>	Port St. Lucie	</item>
+        <item>	Tallahassee	</item>
+        <item>	Cape Coral	</item>
+        <item>	Fort Lauderdale	</item>
+        <item>	Pembroke Pines	</item>
+        <item>	Hollywood	</item>
+        <item>	Gainesville	</item>
+        <item>	Miramar	</item>
+    </string-array>
+    <string-array name="array_georgia_city">
+        <item>select your city</item>
+        <item>	Atlanta	</item>
+        <item>	Columbus	</item>
+        <item>	Augusta-Richmond County	</item>
+        <item>	Macon-Bibb County	</item>
+        <item>	Savannah	</item>
+        <item>	Athens-Clarke County	</item>
+        <item>	Sandy Springs	</item>
+        <item>	South Fulton	</item>
+        <item>	Roswell	</item>
+        <item>	Johns Creek	</item>
+        <item>	Warner Robins	</item>
+        <item>	Albany	</item>
+        <item>	Alpharetta	</item>
+        <item>	Marietta	</item>
+    </string-array>
+    <string-array name="array_hawaii_city">
+        <item>select your city </item>
+        <item>	Urban Honolulu	</item>
+        <item>	East Honolulu	</item>
+        <item>	Pearl City	</item>
+        <item>	Hilo	</item>
+        <item>	Waipahu	</item>
+        <item>	Kailua CDP	</item>
+        <item>	Kaneohe	</item>
+        <item>	Kahului	</item>
+        <item>	Mililani Town	</item>
+        <item>	Ewa Gentry	</item>
+        <item>	Kihei	</item>
+        <item>	Kapolei	</item>
+        <item>	Mililani Mauka	</item>
+        <item>	Makakilo	</item>
+        <item>	Kailua	</item>
+    </string-array>
+    <string-array name="array_idaho_city">
+        <item>select your city</item>
+        <item>	Boise City	</item>
+        <item>	Meridian	</item>
+        <item>	Nampa	</item>
+        <item>	Idaho Falls	</item>
+        <item>	Caldwell	</item>
+        <item>	Pocatello	</item>
+        <item>	Coeur d\'Alene	</item>
+        <item>	Twin Falls	</item>
+        <item>	Rexburg	</item>
+        <item>	Post Falls	</item>
+        <item>	Lewiston	</item>
+        <item>	Eagle	</item>
+        <item>	Moscow	</item>
+        <item>	Kuna	</item>
+        <item>	Ammon	</item>
+    </string-array>
+    <string-array name="array_illinois_city">
+        <item>select your city</item>
+        <item>	Chicago	</item>
+        <item>	Aurora	</item>
+        <item>	Joliet	</item>
+        <item>	Naperville	</item>
+        <item>	Rockford	</item>
+        <item>	Elgin	</item>
+        <item>	Springfield	</item>
+        <item>	Peoria	</item>
+        <item>	Waukegan	</item>
+        <item>	Champaign	</item>
+        <item>	Cicero	</item>
+        <item>	Schaumburg	</item>
+        <item>	Bloomington	</item>
+        <item>	Evanston	</item>
+        <item>	Arlington Heights	</item>
+
+    </string-array>
+    <string-array name="array_indiana_city">
+        <item>select your city</item>
+        <item>	Indianapolis	</item>
+        <item>	Fort Wayne	</item>
+        <item>	Evansville	</item>
+        <item>	South Bend	</item>
+        <item>	Carmel	</item>
+        <item>	Fishers	</item>
+        <item>	Bloomington	</item>
+        <item>	Hammond	</item>
+        <item>	Lafayette	</item>
+        <item>	Noblesville	</item>
+        <item>	Gary	</item>
+        <item>	Muncie	</item>
+        <item>	Greenwood	</item>
+        <item>	Kokomo	</item>
+    </string-array>
+    <string-array name="array_iowa_city">
+        <item>select your city</item>
+        <item>	Des Moines	</item>
+        <item>	Cedar Rapids	</item>
+        <item>	Davenport	</item>
+        <item>	Sioux City	</item>
+        <item>	Iowa City	</item>
+        <item>	West Des Moines	</item>
+        <item>	Ankeny	</item>
+        <item>	Waterloo	</item>
+        <item>	Ames	</item>
+        <item>	Council Bluffs	</item>
+        <item>	Dubuque	</item>
+        <item>	Urbandale	</item>
+        <item>	Marion	</item>
+        <item>	Cedar Falls	</item>
+    </string-array>
+    <string-array name="array_kansas_city">
+        <item>select your city</item>
+        <item>	Wichita	</item>
+        <item>	Overland Park	</item>
+        <item>	Kansas City	</item>
+        <item>	Olathe	</item>
+        <item>	Topeka	</item>
+        <item>	Lawrence	</item>
+        <item>	Shawnee	</item>
+        <item>	Lenexa	</item>
+        <item>	Manhattan	</item>
+        <item>	Salina	</item>
+        <item>	Hutchinson	</item>
+        <item>	Leavenworth	</item>
+        <item>	Leawood	</item>
+        <item>	Garden City	</item>
+        <item>	Dodge City	</item>
+
+    </string-array>
+    <string-array name="array_kentucky_city">
+        <item>select your city</item>
+        <item>	Louisville	</item>
+        <item>	Lexington	</item>
+        <item>	Bowling Green	</item>
+        <item>	Owensboro	</item>
+        <item>	Covington	</item>
+        <item>	Richmond	</item>
+        <item>	Georgetown	</item>
+        <item>	Florence	</item>
+        <item>	Nicholasville	</item>
+        <item>	Elizabethtown	</item>
+        <item>	Hopkinsville	</item>
+        <item>	Independence	</item>
+        <item>	Frankfort	</item>
+        <item>	Henderson	</item>
+    </string-array>
+    <string-array name="array_louisiana_city">
+        <item>select your city</item>
+        <item>	New Orleans	</item>
+        <item>	Baton Rouge	</item>
+        <item>	Shreveport	</item>
+        <item>	Metairie	</item>
+        <item>	Lafayette	</item>
+        <item>	Lake Charles	</item>
+        <item>	Kenner	</item>
+        <item>	Bossier City	</item>
+        <item>	Monroe	</item>
+        <item>	Alexandria	</item>
+        <item>	Houma	</item>
+        <item>	Prairieville	</item>
+        <item>	Marrero	</item>
+        <item>	Central	</item>
+        <item>	Laplace	</item>
+
+    </string-array>
+    <string-array name="array_maine_city">
+        <item>select your city</item>
+        <item>	Portland	</item>
+        <item>	Lewiston	</item>
+        <item>	Bangor	</item>
+        <item>	South Portland	</item>
+        <item>	Auburn	</item>
+        <item>	Biddeford	</item>
+        <item>	Scarborough	</item>
+        <item>	Sanford	</item>
+        <item>	Brunswick	</item>
+        <item>	Westbrook	</item>
+        <item>	Saco	</item>
+        <item>	Augusta	</item>
+        <item>	Windham	</item>
+        <item>	Gorham	</item>
+        <item>	Waterville	</item>
+    </string-array>
+    <string-array name="array_maryland_city">
+        <item>select your city</item>
+        <item>	Baltimore	</item>
+        <item>	Columbia	</item>
+        <item>	Germantown	</item>
+        <item>	Waldorf	</item>
+        <item>	Silver Spring	</item>
+        <item>	Frederick	</item>
+        <item>	Ellicott City	</item>
+        <item>	Glen Burnie	</item>
+        <item>	Gaithersburg	</item>
+        <item>	Bethesda	</item>
+        <item>	Dundalk	</item>
+        <item>	Rockville	</item>
+        <item>	Towson	</item>
+        <item>	Bowie	</item>
+        <item>	Bel Air South	</item>
+    </string-array>
+    <string-array name="array_massachusetts_city">
+        <item>select your city</item>
+        <item>	Boston	</item>
+        <item>	Worcester	</item>
+        <item>	Springfield	</item>
+        <item>	Cambridge	</item>
+        <item>	Lowell	</item>
+        <item>	Brockton	</item>
+        <item>	Quincy	</item>
+        <item>	Lynn	</item>
+        <item>	New Bedford	</item>
+        <item>	Fall River	</item>
+        <item>	Lawrence	</item>
+        <item>	Newton	</item>
+        <item>	Somerville	</item>
+        <item>	Framingham	</item>
+        <item>	Haverhill	</item>
+    </string-array>
+    <string-array name="array_michigan_city">
+        <item>select your city</item>
+        <item>	Detroit	</item>
+        <item>	Grand Rapids city	</item>
+        <item>	Warren city	</item>
+        <item>	Sterling Heights	</item>
+        <item>	Ann Arbor city	</item>
+        <item>	Lansing city	</item>
+        <item>	Dearborn	</item>
+        <item>	Clinton charter township	</item>
+        <item>	Canton	</item>
+        <item>	Livonia	</item>
+        <item>	Macomb	</item>
+        <item>	Troy city	</item>
+        <item>	Westland	</item>
+        <item>	Farmington Hills	</item>
+        <item>	Flint city	</item>
+    </string-array>
+    <string-array name="array_minnesota_city">
+        <item>select your city</item>
+        <item>	Minneapolis	</item>
+        <item>	St\. Paul	</item>
+        <item>	Rochester	</item>
+        <item>	Bloomington	</item>
+        <item>	Duluth	</item>
+        <item>	Brooklyn Park	</item>
+        <item>	Plymouth	</item>
+        <item>	Woodbury	</item>
+        <item>	Maple Grove	</item>
+        <item>	Blaine	</item>
+        <item>	Lakeville	</item>
+        <item>	St\. Cloud	</item>
+        <item>	Eagan	</item>
+        <item>	Burnsville	</item>
+        <item>	Eden Prairie	</item>
+    </string-array>
+    <string-array name="array_mississippi_city">
+        <item>select your city</item>
+        <item>	Jackson	</item>
+        <item>	Gulfport	</item>
+        <item>	Southaven	</item>
+        <item>	Biloxi	</item>
+        <item>	Hattiesburg	</item>
+        <item>	Olive Branch	</item>
+        <item>	Tupelo	</item>
+        <item>	Meridian	</item>
+        <item>	Greenville	</item>
+        <item>	Clinton	</item>
+        <item>	Madison	</item>
+        <item>	Pearl	</item>
+        <item>	Horn Lake	</item>
+        <item>	Oxford	</item>
+    </string-array>
+    <string-array name="array_missouri_city">
+        <item>select your city</item>
+        <item>	Kansas City	</item>
+        <item>	St. Louis	</item>
+        <item>	Springfield	</item>
+        <item>	Columbia	</item>
+        <item>	Independence	</item>
+        <item>	Lee\'s Summit	</item>
+        <item>	O\'Fallon	</item>
+        <item>	St. Joseph	</item>
+        <item>	St. Charles	</item>
+        <item>	St. Peters	</item>
+        <item>	Blue Springs	</item>
+        <item>	Joplin	</item>
+    </string-array>
+
+    <string-array name="array_montana_city">
+        <item>select your city</item>
+        <item>	Billings	</item>
+        <item>	Missoula	</item>
+        <item>	Great Falls	</item>
+        <item>	Bozeman	</item>
+        <item>	Butte-Silver Bow	</item>
+        <item>	Helena	</item>
+        <item>	Kalispell	</item>
+        <item>	Belgrade	</item>
+        <item>	Anaconda-Deer Lodge County	</item>
+        <item>	Havre	</item>
+        <item>	Helena Valley Southeast	</item>
+        <item>	Helena Valley West Central	</item>
+        <item>	Miles City	</item>
+        <item>	Evergreen	</item>
+        <item>	Livingston	</item>
+    </string-array>
+
+    <string-array name="array_nebraska_ciry">
+        <item>select your city</item>
+        <item>	Omaha	</item>
+        <item>	Lincoln	</item>
+        <item>	Bellevue	</item>
+        <item>	Grand Island	</item>
+        <item>	Kearney	</item>
+        <item>	Fremont	</item>
+        <item>	Hastings	</item>
+        <item>	Norfolk	</item>
+        <item>	Papillion	</item>
+        <item>	Columbus	</item>
+        <item>	North Platte	</item>
+        <item>	La Vista	</item>
+        <item>	Scottsbluff	</item>
+        <item>	South Sioux City	</item>
+        <item>	Beatrice	</item>
+    </string-array>
+
+    <string-array name="array_nevada_city">
+        <item>select your city</item>
+        <item>	Las Vegas	</item>
+        <item>	Henderson	</item>
+        <item>	Reno	</item>
+        <item>	North Las Vegas	</item>
+        <item>	Enterprise	</item>
+        <item>	Spring Valley	</item>
+        <item>	Sunrise Manor	</item>
+        <item>	Paradise	</item>
+        <item>	Sparks	</item>
+        <item>	Carson City	</item>
+        <item>	Whitney	</item>
+        <item>	Pahrump	</item>
+        <item>	Winchester	</item>
+        <item>	Summerlin South	</item>
+        <item>	Fernley	</item>
+    </string-array>
+    
+    <string-array name="array_newhampshire_city">
+        <item>select your city</item>
+        <item>	Manchester	</item>
+        <item>	Nashua	</item>
+        <item>	Concord	</item>
+        <item>	Derry	</item>
+        <item>	Dover	</item>
+        <item>	Rochester	</item>
+        <item>	Salem	</item>
+        <item>	Merrimack	</item>
+        <item>	Londonderry	</item>
+        <item>	Hudson	</item>
+        <item>	Bedford	</item>
+        <item>	Keene	</item>
+        <item>	Portsmouth	</item>
+        <item>	Goffstown	</item>
+    </string-array>
+
+    <string-array name="array_newjersey_city">
+        <item>select your city</item>
+        <item>	Newark	</item>
+        <item>	Jersey City	</item>
+        <item>	Paterson	</item>
+        <item>	Elizabeth	</item>
+        <item>	Lakewood	</item>
+        <item>	Edison	</item>
+        <item>	Woodbridge	</item>
+        <item>	Toms River	</item>
+        <item>	Hamilton township	</item>
+        <item>	Trenton	</item>
+        <item>	Clifton	</item>
+        <item>	Cherry Hill	</item>
+        <item>	Brick	</item>
+        <item>	Camden	</item>
+    </string-array>
+
+    <string-array name="array_newmexico_city">
+        <item>select your city</item>
+        <item>	Albuquerque	</item>
+        <item>	Las Cruces	</item>
+        <item>	Rio Rancho	</item>
+        <item>	Santa Fe	</item>
+        <item>	Roswell	</item>
+        <item>	Farmington	</item>
+        <item>	Hobbs	</item>
+        <item>	Clovis	</item>
+        <item>	South Valley	</item>
+        <item>	Carlsbad	</item>
+        <item>	Alamogordo	</item>
+        <item>	Gallup	</item>
+        <item>	Los Lunas	</item>
+        <item>	Sunland Park	</item>
+        <item>	Chaparral	</item>
+    </string-array>
+
+    <string-array name="array_newyork_city">
+        <item>select your item</item>
+        <item>	New York	</item>
+        <item>	Hempstead	</item>
+        <item>	Brookhaven	</item>
+        <item>	Islip	</item>
+        <item>	Oyster Bay	</item>
+        <item>	Buffalo	</item>
+        <item>	North Hempstead	</item>
+        <item>	Babylon	</item>
+        <item>	Yonkers	</item>
+        <item>	Rochester	</item>
+        <item>	Huntington	</item>
+        <item>	Ramapo	</item>
+        <item>	Syracuse	</item>
+        <item>	Amherst	</item>
+    </string-array>
+
+    <string-array name="array_northcarolina_city">
+        <item>select your city</item>
+        <item>	Charlotte	</item>
+        <item>	Raleigh	</item>
+        <item>	Greensboro	</item>
+        <item>	Durham	</item>
+        <item>	Winston-Salem	</item>
+        <item>	Fayetteville	</item>
+        <item>	Cary	</item>
+        <item>	Wilmington	</item>
+        <item>	High Point	</item>
+        <item>	Concord	</item>
+        <item>	Greenville	</item>
+        <item>	Asheville	</item>
+        <item>	Gastonia	</item>
+        <item>	Jacksonville	</item>
+    </string-array>
+
+    <string-array name="array_northdakota_city">
+        <item>select your city</item>
+        <item>	Fargo	</item>
+        <item>	Bismarck	</item>
+        <item>	Grand Forks	</item>
+        <item>	Minot	</item>
+        <item>	West Fargo	</item>
+        <item>	Williston	</item>
+        <item>	Dickinson	</item>
+        <item>	Mandan	</item>
+        <item>	Jamestown	</item>
+        <item>	Wahpeton	</item>
+        <item>	Devils Lake	</item>
+        <item>	Valley City	</item>
+        <item>	Watford City	</item>
+
+    </string-array>
+
+    <string-array name="array_ohio_city">
+        <item>select your city</item>
+        <item>	Columbus	</item>
+        <item>	Cleveland	</item>
+        <item>	Cincinnati	</item>
+        <item>	Toledo	</item>
+        <item>	Akron	</item>
+        <item>	Dayton	</item>
+        <item>	Parma	</item>
+        <item>	Canton	</item>
+        <item>	Lorain	</item>
+        <item>	Hamilton	</item>
+        <item>	Youngstown	</item>
+        <item>	Springfield	</item>
+        <item>	Kettering	</item>
+        <item>	Elyria	</item>
+
+    </string-array>
+
+    <string-array name="array_oklahoma_city">
+        <item>select your city</item>
+        <item>	Oklahoma City	</item>
+        <item>	Tulsa	</item>
+        <item>	Norman	</item>
+        <item>	Broken Arrow	</item>
+        <item>	Edmond	</item>
+        <item>	Lawton	</item>
+        <item>	Moore	</item>
+        <item>	Midwest City	</item>
+        <item>	Enid	</item>
+        <item>	Stillwater	</item>
+        <item>	Owasso	</item>
+        <item>	Bartlesville	</item>
+        <item>	Muskogee	</item>
+        <item>	Shawnee	</item>
+
+    </string-array>
+    <string-array name="array_oregon_city">
+        <item>select your city</item>
+        <item>	Portland	</item>
+        <item>	Eugene	</item>
+        <item>	Salem	</item>
+        <item>	Gresham	</item>
+        <item>	Hillsboro	</item>
+        <item>	Bend	</item>
+        <item>	Beaverton	</item>
+        <item>	Medford	</item>
+        <item>	Springfield	</item>
+        <item>	Corvallis	</item>
+        <item>	Albany	</item>
+        <item>	Tigard	</item>
+        <item>	Aloha	</item>
+        <item>	Lake Oswego	</item>
+
+    </string-array>
+
+    <string-array name="array_pennsylvania_city">
+        <item>selelct your city</item>
+        <item>	Philadelphia	</item>
+        <item>	Pittsburgh	</item>
+        <item>	Allentown	</item>
+        <item>	Erie	</item>
+        <item>	Reading	</item>
+        <item>	Bethlehem	</item>
+        <item>	Scranton	</item>
+        <item>	Lancaster	</item>
+        <item>	Levittown	</item>
+        <item>	Harrisburg	</item>
+        <item>	York	</item>
+        <item>	Altoona	</item>
+        <item>	State College	</item>
+        <item>	Wilkes-Barre	</item>
+
+    </string-array>
+
+    <string-array name="array_rodeisland_city">
+        <item>select your city</item>
+        <item>	Providence	</item>
+        <item>	Cranston	</item>
+        <item>	Warwick	</item>
+        <item>	Pawtucket	</item>
+        <item>	East Providence	</item>
+        <item>	Woonsocket	</item>
+        <item>	Newport	</item>
+        <item>	Central Falls	</item>
+        <item>	Westerly	</item>
+        <item>	Newport East	</item>
+        <item>	Valley Falls	</item>
+        <item>	Wakefield-Peacedale	</item>
+        <item>	Greenville	</item>
+        <item>	Cumberland Hill	</item>
+
+    </string-array>
+
+    <string-array name="array_southcarolina_city">
+        <item>select your city</item>
+        <item>	Charleston	</item>
+        <item>	Columbia	</item>
+        <item>	North Charleston	</item>
+        <item>	Mount Pleasant	</item>
+        <item>	Rock Hill	</item>
+        <item>	Greenville	</item>
+        <item>	Summerville	</item>
+        <item>	Goose Creek	</item>
+        <item>	Sumter	</item>
+        <item>	Florence	</item>
+        <item>	Spartanburg	</item>
+        <item>	Hilton Head Island	</item>
+        <item>	Myrtle Beach	</item>
+        <item>	Greer	</item>
+        <item>	Aiken	</item>
+    </string-array>
+
+    <string-array name="array_southdakota_city">
+        <item>select your city</item>
+        <item>	Sioux Falls	</item>
+        <item>	Rapid City	</item>
+        <item>	Aberdeen	</item>
+        <item>	Brookings	</item>
+        <item>	Watertown	</item>
+        <item>	Mitchell	</item>
+        <item>	Yankton	</item>
+        <item>	Huron	</item>
+        <item>	Pierre	</item>
+        <item>	Spearfish	</item>
+        <item>	Box Elder	</item>
+        <item>	Vermillion	</item>
+        <item>	Brandon	</item>
+        <item>	Rapid Valley	</item>
+    </string-array>
+
+    <string-array name="array_tennessee_city">
+        <item>select your city</item>
+
+        <item>	Nashville-Davidson	</item>
+        <item>	Memphis	</item>
+        <item>	Knoxville	</item>
+        <item>	Chattanooga	</item>
+        <item>	Clarksville	</item>
+        <item>	Murfreesboro	</item>
+        <item>	Franklin	</item>
+        <item>	Johnson City	</item>
+        <item>	Jackson	</item>
+        <item>	Hendersonville	</item>
+        <item>	Bartlett	</item>
+        <item>	Kingsport	</item>
+        <item>	Smyrna	</item>
+        <item>	Collierville	</item>
+        
+    </string-array>
+    
+    <string-array name="array_texas_city">
+        <item>select your city</item>
+        <item>	Houston	</item>
+        <item>	San Antonio	</item>
+        <item>	Dallas	</item>
+        <item>	Austin	</item>
+        <item>	Fort Worth	</item>
+        <item>	El Paso	</item>
+        <item>	Arlington	</item>
+        <item>	Corpus Christi	</item>
+        <item>	Plano	</item>
+        <item>	Lubbock	</item>
+        <item>	Irving	</item>
+        <item>	Laredo	</item>
+        <item>	Garland	</item>
+        <item>	Frisco	</item>
+    </string-array>
+
+    <string-array name="array_utah_city">
+        <item>select your city</item>
+        <item>	Salt Lake City	</item>
+        <item>	West Valley City	</item>
+        <item>	West Jordan	</item>
+        <item>	Provo	</item>
+        <item>	Orem	</item>
+        <item>	Sandy	</item>
+        <item>	St. George	</item>
+        <item>	Ogden	</item>
+        <item>	Layton	</item>
+        <item>	South Jordan	</item>
+        <item>	Lehi	</item>
+        <item>	Millcreek	</item>
+        <item>	Taylorsville	</item>
+        <item>	Herriman	</item>
+        <item>	Logan	</item>
+    </string-array>
+
+    <string-array name="array_vermont_city">
+        <item>select your city</item>
+        <item>	Burlington	</item>
+        <item>	Essex	</item>
+        <item>	South Burlington	</item>
+        <item>	Colchester	</item>
+        <item>	Rutland city	</item>
+        <item>	Bennington	</item>
+        <item>	Brattleboro	</item>
+        <item>	Milton	</item>
+        <item>	Hartford	</item>
+        <item>	Essex Junction	</item>
+        <item>	Williston	</item>
+        <item>	Middlebury	</item>
+        <item>	Springfield	</item>
+        <item>	Barre city	</item>
+        <item>	Montpelier	</item>
+    </string-array>
+
+    <string-array name="array_virginia_city">
+        <item>select your city</item>
+        <item>	Virginia Beach	</item>
+        <item>	Chesapeake	</item>
+        <item>	Arlington	</item>
+        <item>	Norfolk	</item>
+        <item>	Richmond	</item>
+        <item>	Newport News	</item>
+        <item>	Alexandria	</item>
+        <item>	Hampton	</item>
+        <item>	Roanoke	</item>
+        <item>	Portsmouth	</item>
+        <item>	Suffolk	</item>
+        <item>	Lynchburg	</item>
+        <item>	Centreville	</item>
+        <item>	Dale City	</item>
+        <item>	Reston	</item>
+
+    </string-array>
+
+    <string-array name="array_washington_city">
+        <item>select your city</item>
+        <item>	Seattle	</item>
+        <item>	Spokane	</item>
+        <item>	Tacoma	</item>
+        <item>	Vancouver	</item>
+        <item>	Bellevue	</item>
+        <item>	Kent	</item>
+        <item>	Everett	</item>
+        <item>	Renton	</item>
+        <item>	Spokane Valley	</item>
+        <item>	Federal Way	</item>
+        <item>	Yakima	</item>
+        <item>	Kirkland	</item>
+        <item>	Bellingham	</item>
+        <item>	Auburn	</item>
+        <item>	Kennewick	</item>
+        <item>	Pasco	</item>
+    </string-array>
+
+    <string-array name="array_westvirginia_city">
+        <item>select your city</item>
+        <item>	Charleston	</item>
+        <item>	Huntington	</item>
+        <item>	Morgantown	</item>
+        <item>	Parkersburg	</item>
+        <item>	Wheeling	</item>
+        <item>	Weirton	</item>
+        <item>	Martinsburg	</item>
+        <item>	Fairmont	</item>
+        <item>	Beckley	</item>
+        <item>	Clarksburg	</item>
+        <item>	Teays Valley	</item>
+        <item>	South Charleston	</item>
+        <item>	St. Albans	</item>
+        <item>	Vienna	</item>
+    </string-array>
+
+    <string-array name="array_wisconsin_city">
+        <item>select your city</item>
+
+        <item>	Milwaukee	</item>
+        <item>	Madison	</item>
+        <item>	Green Bay	</item>
+        <item>	Kenosha	</item>
+        <item>	Racine	</item>
+        <item>	Appleton	</item>
+        <item>	Waukesha	</item>
+        <item>	Eau Claire	</item>
+        <item>	Oshkosh	</item>
+        <item>	Janesville	</item>
+        <item>	West Allis	</item>
+        <item>	La Crosse	</item>
+        <item>	Sheboygan	</item>
+
+    </string-array>
+
+    <string-array name="array_wyoming_city">
+        <item>select your city</item>
+        <item>	Cheyenne	</item>
+        <item>	Casper	</item>
+        <item>	Gillette	</item>
+        <item>	Laramie	</item>
+        <item>	Rock Springs	</item>
+        <item>	Sheridan	</item>
+        <item>	Green River	</item>
+        <item>	Evanston	</item>
+        <item>	Jackson	</item>
+        <item>	Riverton	</item>
+        <item>	Cody	</item>
+        <item>	Rawlins	</item>
+        <item>	Lander	</item>
+        <item>	Powell	</item>
+        <item>	Douglas	</item>
+    </string-array>
+
+
+
+
 
     <string-array name="array_list_of_interest">
         <item> What\'s your interest\?</item>

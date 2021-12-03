@@ -82,7 +82,7 @@ public class Login extends AppCompatActivity {
 
     private void validate (String name, String password){
 
-        progressDialog.setMessage("you can subscribe to my chanel until you are verified");
+        progressDialog.setMessage("connecting ... ");
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(name, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

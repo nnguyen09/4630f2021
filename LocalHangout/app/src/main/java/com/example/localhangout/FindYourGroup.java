@@ -66,9 +66,149 @@ public class FindYourGroup extends AppCompatActivity {
                                 R.array.array_alaska_city, R.layout.spinner_layout);
                         break;
 
-//                        case "Arizona": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
-//                                R.array.array_arizona_city, R.layout.spinner_layout);
-//                        break;
+                        case "Arizona": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_arizona_city, R.layout.spinner_layout);
+                        break;
+
+                        case "Arkansas": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_arkansas_city, R.layout.spinner_layout);
+                            break;
+
+                        case "California": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_california_city, R.layout.spinner_layout);
+                            break;
+                        case "Colorado": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_colorado_city, R.layout.spinner_layout);
+                            break;
+                        case "Connecticut": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_connecticut_city, R.layout.spinner_layout);
+                            break;
+                        case "Delaware": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_delaware_city, R.layout.spinner_layout);
+                            break;
+                        case "Florida": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_florida_city, R.layout.spinner_layout);
+                            break;
+                        case "Georgia": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_georgia_city, R.layout.spinner_layout);
+                            break;
+                        case "Hawaii": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_hawaii_city, R.layout.spinner_layout);
+                            break;
+                        case "Idaho": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_idaho_city, R.layout.spinner_layout);
+                            break;
+                        case "Illinois": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_illinois_city, R.layout.spinner_layout);
+                            break;
+                        case "Indiana": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_indiana_city, R.layout.spinner_layout);
+                            break;
+                        case "Iowa": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_iowa_city, R.layout.spinner_layout);
+                            break;
+                        case "Kansas": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_kansas_city, R.layout.spinner_layout);
+                            break;
+                        case "Kentucky": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_kentucky_city, R.layout.spinner_layout);
+                            break;
+                        case "Louisiana": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_louisiana_city, R.layout.spinner_layout);
+                            break;
+                        case "Maine": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_maine_city, R.layout.spinner_layout);
+                            break;
+                        case "Maryland": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_maryland_city, R.layout.spinner_layout);
+                            break;
+                        case "Massachusetts": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_massachusetts_city, R.layout.spinner_layout);
+                            break;
+                        case "Michigan": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_michigan_city, R.layout.spinner_layout);
+                            break;
+                        case "Minnesota": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_minnesota_city, R.layout.spinner_layout);
+                            break;
+                        case "Mississippi": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_mississippi_city, R.layout.spinner_layout);
+                            break;
+                        case "Missouri": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_missouri_city, R.layout.spinner_layout);
+                            break;
+                        case "Montana": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_montana_city, R.layout.spinner_layout);
+                            break;
+                        case "Nebraska": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_nebraska_ciry, R.layout.spinner_layout);
+                            break;
+                        case "Nevada": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_nevada_city, R.layout.spinner_layout);
+                            break;
+                        case "New Hampshire": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_newhampshire_city, R.layout.spinner_layout);
+                            break;
+                        case "New Jersey": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_newjersey_city, R.layout.spinner_layout);
+                            break;
+                        case "New Mexico": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_newmexico_city, R.layout.spinner_layout);
+                            break;
+                        case "New York": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_newyork_city, R.layout.spinner_layout);
+                            break;
+                        case "North Carolina": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_northcarolina_city, R.layout.spinner_layout);
+                            break;
+                        case "North Dakota": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_northdakota_city, R.layout.spinner_layout);
+                            break;
+                        case "Ohio": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_ohio_city, R.layout.spinner_layout);
+                            break;
+                        case "Oklahoma": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_oklahoma_city, R.layout.spinner_layout);
+                            break;
+                        case "Oregon": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_oregon_city, R.layout.spinner_layout);
+                            break;
+                        case "Pennsylvania": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_pennsylvania_city, R.layout.spinner_layout);
+                            break;
+                        case "Rode Island": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_rodeisland_city, R.layout.spinner_layout);
+                            break;
+                        case "South Dakota": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_southdakota_city, R.layout.spinner_layout);
+                            break;
+                        case "Tennessee": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_tennessee_city, R.layout.spinner_layout);
+                            break;
+                        case "Texas": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_texas_city, R.layout.spinner_layout);
+                            break;
+                        case "Utah": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_utah_city, R.layout.spinner_layout);
+                            break;
+                        case "Vermont": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_vermont_city, R.layout.spinner_layout);
+                            break;
+                        case "Virginia": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_virginia_city, R.layout.spinner_layout);
+                            break;
+                        case "Washington": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_washington_city, R.layout.spinner_layout);
+                            break;
+                        case "West Virginia": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_westvirginia_city, R.layout.spinner_layout);
+                            break;
+                        case "Wisconsin": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_wisconsin_city, R.layout.spinner_layout);
+                            break;
+                        case "Wyoming": cityAdapter = ArrayAdapter.createFromResource(adapterView.getContext(),
+                                R.array.array_wyoming_city, R.layout.spinner_layout);
+                            break;
 
                         default:break;
                     }
@@ -113,7 +253,7 @@ public class FindYourGroup extends AppCompatActivity {
         chatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(FindYourGroup.this, "Let's Chat selected. Removing this and add chat room soon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(FindYourGroup.this, "Let's Chat selected", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(FindYourGroup.this, GroupChat.class));
 
             }
