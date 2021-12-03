@@ -16,7 +16,7 @@ After clone this repository,before running the go to build -> clean project in c
 
 ## How to use 
 It is user friendly and straight forward. 
-> <p>After getting app to run successfully, then<br>
+<p>After getting app to run successfully, then<br>
    Create an account,<br>
    Choose the state where you live,<br>
    Choose the city where you live,<br>
