@@ -16,8 +16,8 @@ After clone this repository,before running the go to build -> clean project in c
 
 ## How to use 
 It is user friendly and straight forward. 
-After getting app to run successfully, then
-  Create an account,
-  Choose the state where you live,
-  Choose the city where you live,
-  Click on chat button to chat with other people.
+<p>After getting app to run successfully, then<br>
+  Create an account,<br>
+  Choose the state where you live,<br>
+  Choose the city where you live,<br>
+  Click on chat button to chat with other people.</p>
